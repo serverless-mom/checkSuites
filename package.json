@@ -1,0 +1,18 @@
+{
+  "name": "testsuite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.11",
+    "checkly": "^6.1.0",
+    "jiti": "^2.4.2",
+    "typescript": "^5.8.3"
+  }
+}
