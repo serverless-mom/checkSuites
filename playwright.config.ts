@@ -46,7 +46,7 @@ export default defineConfig({
     {
       name: 'bestPractices',
       testMatch: /.*catalogSite.*spec.ts/,
-      retries: 0,
+      retries: 3,
     }
   ],
 

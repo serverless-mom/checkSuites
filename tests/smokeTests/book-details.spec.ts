@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
 
-test('Mocked Book Details Call', async ({ page }) => {
+test('Mocked Book Details Call', {
+  tag: '@smoke',
+},async ({ page }) => {
   await page.route('*/**/api/books/23', async route => {
     const json = {
       "id": 22,

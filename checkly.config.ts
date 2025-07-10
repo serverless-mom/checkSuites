@@ -13,9 +13,10 @@ export default defineConfig({
         name: 'Smoke tests',
         // Use one project (or multiple projects) defined in your Playwright config
         pwProjects: ['smoke'],
+        pwTags: '@smoke',
         frequency: Frequency.EVERY_10M,
         locations: ['us-east-1', 'eu-west-1'],
-        groupName: 'Dev Cluster'
+        //groupName: 'Dev Cluster'
       },
       // {
       //   logicalId: 'critical-123089',
